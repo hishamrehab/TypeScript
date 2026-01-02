@@ -19,3 +19,6 @@ const hisham : User = {
     email: "hishamrehab@gmail.com",
     password: "12546"
 }
+
+console.log(`Name : ${hisham.first} ${hisham.last} ,
+     Age : ${hisham.age} Email: ${hisham.password} `);
