@@ -2,4 +2,5 @@ function greet(name: string) {
   console.log(`Hello, ${name}!`);
 }
 
-greet(42); 
+greet("hello")
+// greet(42); 
