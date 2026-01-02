@@ -1,7 +1,7 @@
 type User = {
      name : string;
      age?: number;
-   readonly  location : string;
+     location : string;
 }
 
 const user : User = {
