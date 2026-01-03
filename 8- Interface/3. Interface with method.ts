@@ -33,3 +33,20 @@ const hisham: Person = {
 
 greet(john);
 greet(hisham);
+
+// -----------------------------------------
+interface Song{ 
+   songName : string;
+   singerName : string;
+   printSongInfo(songName :string , singerName: string) : string;
+}
+
+const song1 : Song = {
+    songName: "Natural",
+    singerName: "Imagin Drigon",
+    printSongInfo: (songName , singerName) => {
+        return `Song ${songName} , Singer : ${singerName}`
+    }
+};
+
+console.log(song1.printSongInfo("Natural" , "Imaginer Drigon"));
